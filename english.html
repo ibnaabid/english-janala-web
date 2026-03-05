@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>English Janala || window</title>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navbar bg-base-100 shadow-sm">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </div>
+          <ul
+            tabindex="-1"
+            class="menu menu-sm dropdown-content bg-base-100 gap-2 rounded-box z-1 mt-3 w-52 p-2 shadow"
+          >
+            <li>
+              <a href="" class="btn btn-soft btn-secondary"
+                >FAQ <i class="fa-solid fa-circle-question"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="" class="btn btn-soft btn-secondary"
+                >learn <i class="fa-brands fa-leanpub"></i
+              ></a>
+            </li>
+
+            <li>
+              <a href="" class="btn btn-soft btn-secondary"
+                >Question <i class="fa-solid fa-circle-question"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <a class="btn btn-ghost text-xl"
+          >English <img src="./assets/logo.png" alt="" srcset="" /> জানালা</a
+        >
+      </div>
+      <div class="navbar-end hidden lg:flex">
+        <ul class="menu menu-horizontal flex gap-3 px-1">
+          <li>
+            <a href="" class="btn btn-soft btn-secondary"
+              >FAQ <i class="fa-solid fa-circle-question"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="" class="btn btn-soft btn-secondary"
+              >learn <i class="fa-brands fa-leanpub"></i
+            ></a>
+          </li>
+
+          <li>
+            <a href="" class="btn btn-soft btn-secondary"
+              >Question <i class="fa-solid fa-circle-question"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <section class="bg-gray-100 py-16">
+      <div class="max-w-7xl mx-auto px-6 lg:px-16">
+        <div
+          class="flex flex-col-reverse lg:flex-row items-center justify-between gap-10"
+        >
+          <!-- LEFT SIDE -->
+          <div class="max-w-xl">
+            <h1 class="text-4xl lg:text-5xl font-bold">
+              <span class="text-cyan-500">English</span> is Easy!!
+            </h1>
+
+            <p class="mt-4 text-gray-600 leading-relaxed">
+              আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা
+              আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে
+              যাবে অন্য একটি Level এ
+            </p>
+
+            <!-- Form -->
+            <div class="mt-6 space-y-4">
+              <input
+                type="text"
+                placeholder="Enter Your Name"
+                class="input input-bordered w-full"
+              />
+              <input
+                type="password"
+                placeholder="Enter Password"
+                class="input input-bordered w-full"
+              />
+              <button
+                class="btn bg-indigo-600 text-white hover:bg-indigo-700 w-40"
+              >
+                Get Started
+              </button>
+            </div>
+          </div>
+
+          <!-- RIGHT SIDE IMAGE -->
+          <div class="flex">
+            <img src="./assets/hero-student.png" class="w-80" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <h1 class="text-4xl font-bold mr-5 text-center py-5">
+        <span class="text-blue-500">Let's</span> Learn Vocabularies
+      </h1>
+
+      <div
+        id="vocabulary-container"
+        class="container w-11/12 flex flex-wrap mx-auto justify-center gap-5 mt-7 items-center py-9"
+      ></div>
+
+      
+    <div class="justify-center grid grid-cols-1 text-center mx-auto py-5 join">
+  <div>
+    <input id="levelValue" type="text" placeholder="enter your Vocabularies" class="input validator join-item" required />
+    <button id="searchBtn" class="btn btn-soft  mx-auto btn-primary join-item">click</button>
+  </div>
+
+    </main>
+
+<section
+  id="wordsMeaning-container"
+  class="grid grid-cols-1 md:grid-cols-3 gap-6 px-5 md:px-10 bg-white py-16 mt-10 mx-auto w-11/12"
+>
+  <div class="bg-gray-100 col-span-full flex flex-col items-center justify-center rounded-2xl px-6 py-10 shadow-lg">
+    <img
+      class="w-24 h-24 mx-auto mb-6"
+      src="./assets/alert-error.png"
+      alt="No Lesson Selected"
+    />
+    <h1 class="text-2xl md:text-3xl font-bold text-gray-800 text-center mb-3">
+      আপনি এখনো কোন Lesson Select করেননি
+    </h1>
+    <p class="text-lg md:text-xl text-red-600 font-semibold text-center">
+      একটি Lesson Select করুন
+    </p>
+  </div>
+</section>
+    <!-- <!-- Open the modal using ID.showModal() method -->
+<dialog id="showModal" class="modal modal-bottom sm:modal-middle">
+  <!--  -->
+      </form>
+    </div>
+  </div>
+</dialog>
+
+
+
+
+
+    <script src="./janala.js"></script>
+  </body>
+</html>
